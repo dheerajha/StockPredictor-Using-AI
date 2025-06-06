@@ -40,8 +40,6 @@ Each stock's data will be saved to:
 data/{{stock_symbol}}.csv
 
 ⚠️ Note: The Google Finance API only returns ~4000 days of data. For older data, modify data_fetcher.py to send multiple requests per stock.
-Alternatively, you can extract data from the following archive to use directly:
-[stock-data-lilianweng.tar.gz]
 (Replace the data folder with extracted content for test runs.)
 
 ## 🧠 Model Training
